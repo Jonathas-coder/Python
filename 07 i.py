@@ -1,0 +1,5 @@
+print('Iniciando programa...')
+s=float(input('Digite seu salário: '))
+p=(s*15/100)
+t=float(p+s)
+print('Aumento de 15% é $\033[4;35m{}\033[m o total $\033[1;31m{}\033[m'.format(p,t))

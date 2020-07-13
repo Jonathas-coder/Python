@@ -1,0 +1,6 @@
+print('Iniciando programa de médias...')
+m1=float(input('Digite a primeria média: '))
+m2=float(input('Digite a segunda: '))
+m=float(m1+m2)
+r=(m/2)
+print('A média entre as notas \033[1;30m{}\033[m e \033[1;30m{}\033[m é \033[1;36m{}\033[m'.format(m1,m2,r))

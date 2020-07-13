@@ -1,0 +1,18 @@
+lista=[]
+quant=int(input('Quantas listas você quer? '))
+element=int(input('Com quantos elementos? '))
+lista2=[]
+tot=1
+nome=str('EXEMPLO')
+while tot <= quant:
+    c=0
+    while True:
+        lista.append(nome)
+        c+=1
+        if c ==element:
+            break
+    lista2.append(lista[:])
+    lista.clear()
+    tot += 1
+for i,d in enumerate(lista2):
+    print(f'{lista2[i]}-->',end='')#necessario colocar a lista em evidencia lista[i] para mostrar a quantidade de elementos dentro da lista
